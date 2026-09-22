@@ -612,12 +612,4 @@ app.listen(PORT, () => {
   console.log("Base URL:", BASE_URL);
   console.log("Redirect URI:", REDIRECT_URI);
   console.log("====================================");
-});
-
-After deploying, open:
-
-"https://xauth-v52j.onrender.com/auth/x"
-
-Authorize the application on X. The callback page should then show the actual Access Token in the textarea.
-
-One important thing: because the token is now visible in the browser, don't paste the token into GitHub or share screenshots containing it. Rotate/revoke it after the tutor demonstration.
+}};
