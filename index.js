@@ -612,4 +612,4 @@ app.listen(PORT, () => {
   console.log("Base URL:", BASE_URL);
   console.log("Redirect URI:", REDIRECT_URI);
   console.log("====================================");
-}};
+});
